@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas Tabel 2 </title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 80px;
+            height: 30px;
+        }
+        .black {
+            background-color: black;
+        }
+        .krem {
+            background-color: rgb(232, 194, 182);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Baris 1 -->
+        <tr>
+            <td colspan="2"></td>
+            <td class="black"></td>
+            <td colspan="2"></td>
+        </tr>
+        <!-- Baris 2 -->
+        <tr>
+            <td></td>
+            <td class="black"></td>
+            <td class="black"></td>
+            <td class="black"></td>
+            <td></td>
+        </tr>
+        <!-- Baris 3 -->
+        <tr>
+            <td class="black"></td>
+            <td class="black"></td>
+            <td class="black"></td>
+            <td class="black"></td>
+            <td class="black"></td>
+        </tr>
+        <!-- Baris 4 -->
+        <tr>
+            <td colspan="5" class="krem"></td>
+        </tr>
+        <!-- Baris 5 -->
+        <tr>
+            <td class="krem"></td>
+            <td class="black"></td>
+            <td class="krem"></td>
+            <td class="black"></td>
+            <td class="krem"></td>
+        </tr>
+        <!-- Baris 6 -->
+        <tr>
+            <td class="krem"></td>
+            <td colspan="3" class="black"></td>
+            <td class="krem"></td>
+        </tr>
+        <!-- Baris 7 -->
+        <tr>
+            <td class="krem"></td>
+            <td class="black"></td>
+            <td class="krem"></td>
+            <td class="black"></td>
+            <td class="krem"></td>
+        </tr>
+        <!-- Baris 8-11 -->
+        <tr>
+            <td colspan="5" class="krem"></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="krem"></td>
+        </tr>
+        <tr>
+            <td colspan="5" class="krem"></td>
+        </tr>
+        <tr>
+            <td class="krem"></td>
+            <td colspan="3" class="black"></td>
+            <td class="krem"></td>
+        </tr>
+        <!-- Baris 12 -->
+        <tr>
+            <td colspan="5" class="krem"></td>
+        </tr>
+    </table>
+</body>
+</html>
